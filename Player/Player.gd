@@ -6,7 +6,7 @@ const ACCELERATION : int = 500
 const FRICTION : int = 500
 
 onready var velocity = Vector2.ZERO
-onready var roll_direction = Vector2.LEFT
+onready var roll_direction = Vector2.DOWN
 onready var animationPlayer = $AnimationPlayer
 onready var animationTree = $AnimationTree
 onready var animationState = animationTree.get("parameters/playback")

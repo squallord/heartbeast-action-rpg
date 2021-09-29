@@ -1,9 +1,9 @@
 extends KinematicBody2D
 
-const MAX_SPEED : int = 100
-const ROLL_SPEED : int = 120
-const ACCELERATION : int = 500
-const FRICTION : int = 500
+export(int) var MAX_SPEED = 100
+export(int) var ROLL_SPEED  = 120
+export(int) var ACCELERATION = 500
+export(int) var FRICTION = 500
 
 onready var velocity = Vector2.ZERO
 onready var roll_direction = Vector2.DOWN
